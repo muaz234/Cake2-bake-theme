@@ -1,0 +1,26 @@
+{
+
+"name": "Inspinia Theme",
+"description": "Adapted fron Inspinia",
+"screenshot": "screenshot.png",
+
+"author": "Suhaimi Maidin,Muaz Ahmed",
+"authorEmail": "suhaimi.maidin@prasarana.com.my",
+
+
+"menus": [
+		"main"
+],
+
+"regions": [
+		"right",
+		"header",
+		"footer",
+		"region1",
+		"region1post",
+		"region2",
+		"region3",
+		"region4"
+]
+
+}
