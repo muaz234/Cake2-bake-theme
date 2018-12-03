@@ -20,7 +20,7 @@
     
 
     echo $this->Html->script(array(
-    '../theme/Inspinia/js/jquery-2.1.1.js',
+    '../theme/Inspinia/js/jquery-2.2.4.min.js',
         '../theme/Inspinia/js/inspinia.js',
         '../theme/Inspinia/js/plugins/pace/pace.min.js',
         '../theme/Inspinia/js/inspinia.js',
@@ -149,7 +149,7 @@
 
 
                 <li>
-                    <a href="login.html">
+                    <a href="<?php echo $this->webroot.'users/users/logout';?>">
                         <i class="fa fa-sign-out"></i> Log out
                     </a>
                 </li>
@@ -588,7 +588,7 @@
 
                         </div> -->
                 </div> 
-                <div class="footer">
+                <div class="footer" style="position:fixed;bottom:0;">
                     <div class="pull-right">
                         10GB of <strong>250GB</strong> Free.
                     </div>

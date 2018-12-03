@@ -62,7 +62,7 @@ echo $this->Html->script(array(
                         <ul class="nav nav-second-level collapse">
                         <?php foreach ($myMenu['children'] as $child) { ?>
         <li >
-          <a href="<?php echo $this->webroot.$child['Link']['link']; ?>" >                                                        
+          <a href="<?php echo $this->webroot.$child['Link']['link']; ?>">                                              
             <i class="fa fa-angle-right"></i>
             <span><?php echo $child['Link']['title']; ?></span>
           </a>
@@ -73,7 +73,7 @@ echo $this->Html->script(array(
                     </li>
                     <?php   } ?>
                     
-                    <li>
+                    <!-- <li>
                         <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Layouts</span></a>
                     </li>
                     <li>
@@ -87,7 +87,7 @@ echo $this->Html->script(array(
                             <li><a href="graph_peity.html">Peity Charts</a></li>
                             <li><a href="graph_sparkline.html">Sparkline Charts</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                     <!-- <li>
                         <a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">Mailbox </span><span class="label label-warning pull-right">16/24</span></a>
                         <ul class="nav nav-second-level collapse">
