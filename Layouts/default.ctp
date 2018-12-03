@@ -36,7 +36,7 @@
         
         <?php echo $this->element('menu'); ?>
 
-        <div id="page-wrapper" class="gray-bg dashbard-1">
+        <div id="page-wrapper" class="gray-bg">
         <div class="row border-bottom">
         <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header">
@@ -162,7 +162,7 @@
 
         </nav>
         </div>
-                <div class="row  border-bottom white-bg dashboard-header">
+                <div class="row  border-bottom ">
                         <?php  echo $this->Layout->sessionFlash(); ?>
 
                         <?php echo $this->fetch('content'); ?>
@@ -254,8 +254,8 @@
                         </div>
                     </div> -->
 
-            </div>
-        <!-- <div class="row">
+              <!-- </div> -->
+            <!-- <div class="row">
             <div class="col-lg-12">
                 <div class="wrapper wrapper-content">
                         <div class="row">
@@ -586,8 +586,8 @@
                             </div>
                         </div>
 
-                        </div>
-                </div> -->
+                        </div> -->
+                </div> 
                 <div class="footer">
                     <div class="pull-right">
                         10GB of <strong>250GB</strong> Free.
@@ -1062,7 +1062,7 @@
 
 
         </div>
-    </div>
+    <!-- </div> -->
 
 
     <?php  
@@ -1072,11 +1072,14 @@
                 '../theme/Inspinia/js/bootstrap.min.js',
                 '../theme/Inspinia/js/plugins/metisMenu/jquery.metisMenu.js',
                 '../theme/Inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js',
+                
                 '../theme/Inspinia/js/plugins/flot/jquery.flot.js',
                 '../theme/Inspinia/js/plugins/flot/jquery.flot.tooltip.min.js',
                 '../theme/Inspinia/js/plugins/flot/jquery.flot.spline.js',
                 '../theme/Inspinia/js/plugins/flot/jquery.flot.resize.js',
                 '../theme/Inspinia/js/plugins/flot/jquery.flot.pie.js',
+                '../theme/Inspinia/js/plugins/flot/jquery.flot.time.js',
+
                 '../theme/Inspinia/js/plugins/peity/jquery.peity.min.js',
                 '../theme/Inspinia/js/demo/peity-demo.js',
                 
@@ -1086,6 +1089,11 @@
                 '../theme/Inspinia/js/demo/sparkline-demo.js',
                 '../theme/Inspinia/js/plugins/chartJs/Chart.min.js',
                 '../theme/Inspinia/js/plugins/toastr/toastr.min.js',
+
+                '../theme/Inspinia/js/plugins/pace/pace.min.js',
+                '../theme/Inspinia/js/demo/flot-demo.js',
+
+
             ));
 
 ?>
