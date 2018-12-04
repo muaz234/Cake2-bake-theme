@@ -17,17 +17,20 @@
         '../theme/Inspinia/css/animate.css',
         '../theme/Inspinia/css/style.css',
     ));  
-    
+    ?>
 
+   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+    <?php
     echo $this->Html->script(array(
-    '../theme/Inspinia/js/jquery-2.2.4.min.js',
+    
         '../theme/Inspinia/js/inspinia.js',
         '../theme/Inspinia/js/plugins/pace/pace.min.js',
         '../theme/Inspinia/js/inspinia.js',
         '../theme/Inspinia/js/plugins/pace/pace.min.js',
     ));
     ?> 
-  
+   
 
 </head>
 
