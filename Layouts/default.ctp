@@ -22,13 +22,13 @@
    <!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script> -->
 
     <?php
-    echo $this->Html->script(array(
-        '../theme/Inspinia/js/jquery-3.3.1.js',
-        '../theme/Inspinia/js/inspinia.js',
-        '../theme/Inspinia/js/plugins/pace/pace.min.js',
-        '../theme/Inspinia/js/inspinia.js',
-        '../theme/Inspinia/js/plugins/pace/pace.min.js',
-    ));
+    // echo $this->Html->script(array(
+    //     '../theme/Inspinia/js/jquery-2.1.1.js',
+    //     '../theme/Inspinia/js/inspinia.js',
+    //     '../theme/Inspinia/js/plugins/pace/pace.min.js',
+    //     '../theme/Inspinia/js/inspinia.js',
+    //     '../theme/Inspinia/js/plugins/pace/pace.min.js',
+    // ));
     ?> 
    
 
@@ -1073,7 +1073,7 @@
     <?php  
 
             echo $this->Html->script(array(
-                '../theme/Inspinia/js/jquery-3.3.1.js',
+                '../theme/Inspinia/js/jquery-2.2.4.min.js',
                 '../theme/Inspinia/js/bootstrap.min.js',
                 '../theme/Inspinia/js/plugins/metisMenu/jquery.metisMenu.js',
                 '../theme/Inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js',
@@ -1233,8 +1233,8 @@
                 animateScale: false
             };
 
-            var ctx = document.getElementById("doughnutChart").getContext("2d");
-            var DoughnutChart = new Chart(ctx).Doughnut(doughnutData, doughnutOptions);
+            // var ctx = document.getElementById("doughnutChart").getContext("2d");
+            // var DoughnutChart = new Chart(ctx).Doughnut(doughnutData, doughnutOptions);
 
             var polarData = [
                 {
@@ -1272,8 +1272,8 @@
                 animateRotate: true,
                 animateScale: false
             };
-            var ctx = document.getElementById("polarChart").getContext("2d");
-            var Polarchart = new Chart(ctx).PolarArea(polarData, polarOptions);
+            // var ctx = document.getElementById("polarChart").getContext("2d");
+            // var Polarchart = new Chart(ctx).PolarArea(polarData, polarOptions);
 
         });
     </script>
