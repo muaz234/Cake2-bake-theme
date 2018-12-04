@@ -589,12 +589,12 @@
 
                         </div> -->
                 </div> 
-                <div class="footer" style="position:fixed;bottom:0;">
+                <!-- <div class="footer" style="position:fixed;bottom:0;">
                   
                     <div style="text-align: center">
                         <strong>Copyright</strong> Template Generated
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="small-chat-box fadeInRight animated">
 
