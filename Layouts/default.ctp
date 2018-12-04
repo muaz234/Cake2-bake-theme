@@ -162,7 +162,8 @@
 
         </nav>
         </div>
-                <div class="row  border-bottom ">
+            
+                <div class="row  border-bottom">
                         <?php  echo $this->Layout->sessionFlash(); ?>
 
                         <?php echo $this->fetch('content'); ?>
@@ -589,18 +590,13 @@
                         </div> -->
                 </div> 
                 <div class="footer" style="position:fixed;bottom:0;">
-                    <div class="pull-right">
-                        10GB of <strong>250GB</strong> Free.
-                    </div>
-                    <div>
-                        <strong>Copyright</strong> Example Company &copy; 2014-2015
+                  
+                    <div style="text-align: center">
+                        <strong>Copyright</strong> Template Generated
                     </div>
                 </div>
             </div>
-        </div>
-
-        </div>
-        <div class="small-chat-box fadeInRight animated">
+            <div class="small-chat-box fadeInRight animated">
 
             <div class="heading" draggable="true">
                 <small class="chat-date pull-right">
@@ -679,10 +675,10 @@
         <div id="small-chat">
 
             <span class="badge badge-warning pull-right">5</span>
-            <a class="open-small-chat">
-                <i class="fa fa-comments"></i>
+                <a class="open-small-chat">
+                    <i class="fa fa-comments"></i>
 
-            </a>
+                </a>
         </div>
         <div id="right-sidebar">
             <div class="sidebar-container">
@@ -1061,7 +1057,13 @@
 
 
 
-        </div>
+        </div>        
+</div>
+
+        
+        
+        
+        
     <!-- </div> -->
 
 
