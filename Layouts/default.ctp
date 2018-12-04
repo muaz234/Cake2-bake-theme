@@ -19,11 +19,11 @@
     ));  
     ?>
 
-   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+   <!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script> -->
 
     <?php
     echo $this->Html->script(array(
-    
+        '../theme/Inspinia/js/jquery-3.3.1.js',
         '../theme/Inspinia/js/inspinia.js',
         '../theme/Inspinia/js/plugins/pace/pace.min.js',
         '../theme/Inspinia/js/inspinia.js',
@@ -1073,7 +1073,7 @@
     <?php  
 
             echo $this->Html->script(array(
-                '../theme/Inspinia/js/jquery-2.1.1.js',
+                '../theme/Inspinia/js/jquery-3.3.1.js',
                 '../theme/Inspinia/js/bootstrap.min.js',
                 '../theme/Inspinia/js/plugins/metisMenu/jquery.metisMenu.js',
                 '../theme/Inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js',
