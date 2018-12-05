@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -1074,7 +1073,7 @@
 
             echo $this->Html->script(array(
                 '../theme/Inspinia/js/jquery-2.2.4.min.js',
-                '../theme/Inspinia/js/bootstrap.min.js',
+                '../theme/Inspinia/js/bootstrap.js',
                 '../theme/Inspinia/js/plugins/metisMenu/jquery.metisMenu.js',
                 '../theme/Inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js',
                 
