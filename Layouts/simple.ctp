@@ -43,7 +43,7 @@
         <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header" >
             <div class="container" style=" position: relative; height:5%; top: 12!important; left: 5!important;">
-            <img src="<?php echo $this->webroot.'./theme/Inspinia/img/prasarana_logo.png';?>" >&nbsp &nbsp <a href="<? $this->webroot;?>"><?php  echo strip_tags(Configure::read('Site.title')); ?></a>
+            <img src="<?php echo $this->webroot.'./theme/Inspinia/img/prasarana_logo.png';?>" >&nbsp &nbsp <a href="<? $this->webroot;?>" class="navbar-brand" s><?php  echo strip_tags(Configure::read('Site.title')); ?></a>
             
             </div>
         </div>
