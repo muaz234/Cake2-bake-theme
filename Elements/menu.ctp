@@ -46,14 +46,15 @@ echo $this->Html->script(array(
                         // print_r($menus_for_layout['main']['threaded']);
 
                         $myMenus = $menus_for_layout['main']['threaded'];
+                        if(!empty($myMenus)){
 
                         foreach ($myMenus as $myMenu) {
                         // print_r($myMenu['Link']);
                             ?>
 
                     <li>
-                    <a href="<?php echo $this->webroot.$myMenu['Link']['link']; ?>"><i class=""></i> <span class="nav-label"></span> <span class="fa arrow"></span>
-                    <!-- <a href="<?php //echo $this->webroot.$myMenu['Link']['link']; ?>"  class="active"> -->
+                    <a href="<?php  echo $this->webroot.$myMenu['Link']['link']; ?>"><i class=""></i> <span class="nav-label"></span> <span class="fa arrow"></span>
+                    <!-- <a href="<?php echo $this->webroot.$myMenu['Link']['link']; ?>"  class="active"> -->
                     <?php echo $myMenu['Link']['params']; ?>
                     <span><?php echo $myMenu['Link']['title']; ?></span>
                     </a>
@@ -61,10 +62,10 @@ echo $this->Html->script(array(
 
                         <ul class="nav nav-second-level collapse">
                         <?php foreach ($myMenu['children'] as $child) { ?>
-        <li >
+        <li>
           <a href="<?php echo $this->webroot.$child['Link']['link']; ?>">                                              
             <i class="fa fa-angle-right"></i>
-            <span><?php echo $child['Link']['title']; ?></span>
+            <span><?php  echo $child['Link']['title']; ?></span>
           </a>
         </li>  
       <?php      } ?>
@@ -72,6 +73,8 @@ echo $this->Html->script(array(
                         <?php   } ?>
                     </li>
                     <?php   } ?>
+                
+                        <?php }  ?>
                     
                     <!-- <li>
                         <a href="layouts.html"><i class="fa fa-diamond"></i> <span class="nav-label">Layouts</span></a>
