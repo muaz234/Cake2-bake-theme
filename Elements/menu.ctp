@@ -27,12 +27,14 @@ echo $this->Html->script(array(
                             <img alt="image" class="img-circle" src=<?php echo $this->webroot.'theme/Inspinia/img/profile_small.jpg' ;?> >
                              </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">David Williams</strong>
-                             </span> <span class="text-muted text-xs block">Art Director <b class="caret"></b></span> </span> </a>
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold"><?php echo $this->Session->read('Auth.User.name');?></strong>
+                             </span> <span class="text-muted text-xs block"><?php if(!empty($this->Session->read('Auth.User.Role.title'))){ echo $this->Session->read('Auth.User.Role.title');}  else {
+                                 echo $this->Session->read('Auth.User.Role.0.Role.title');
+                             }?> <b class="caret"></b></span> </span> </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a href="profile.html">Profile</a></li>
-                                <li><a href="contacts.html">Contacts</a></li>
-                                <li><a href="mailbox.html">Mailbox</a></li>
+                                <li><a href="<?php echo $this->webroot.'admin'; ?>">Settings</a></li>
+                                <!-- <li><a href="<?php  echo $this->webroot.'user_edit'; ?>">Profile</a></li> -->
+                                <!-- <li><a href="mailbox.html">Mailbox</a></li> -->
                                 <li class="divider"></li>
                                 <li><a href="<?php echo $this->webroot.'users/users/logout';?>">Logout</a></li>
                             </ul>
