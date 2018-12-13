@@ -6,8 +6,8 @@
         <meta name="author" content="abuarif" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="keywords" content=""/>
-        <link href="<?php echo $this->webroot.'theme/LamanPuteri/images/prasarana_ico.png'; ?>" rel="apple-touch-icon" type="image/x-icon" />
-        <link href="<?php echo $this->webroot.'theme/LamanPuteri/images/prasarana_ico.png'; ?>" rel="shortcut icon" type="image/x-icon"/>
+        <link href="<?php echo $this->webroot.'theme/Inspinia/img/prasarana_ico.png'; ?>" rel="apple-touch-icon" type="image/x-icon" />
+        <link href="<?php echo $this->webroot.'theme/Inspinia/img/prasarana_ico.png'; ?>" rel="shortcut icon" type="image/x-icon"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <meta name="description" content="app, web app, responsive, admin dashboard, admin, flat, flat ui, ui kit, off screen nav" />
@@ -20,13 +20,8 @@
 
 <style type="text/css">
 
-.myBody {
-background:  url('<?php echo $this->webroot.'theme/LamanPuteri/images/buzy_office_scenery.jpeg'; ?>') no-repeat center left;
- background-size: 100% 100%;
-width: 100%;
-height: 100%;
-height: auto !important;
-min-height:100%;
+.bg-image {
+background: url('<?php echo $this->webroot.'theme/Inspinia/img/buzy_office_scenery.jpeg'; ?>');
 }
 
 .rcorner {
@@ -42,16 +37,16 @@ min-height:100%;
         echo $this->Layout->js();
 
         echo $this->Html->css(array(
-            '../theme/LamanPuteri/css/bootstrap.css',
-            '../theme/LamanPuteri/css/animate.css',
-            '../theme/LamanPuteri/css/font-awesome.min.css',
-            '../theme/LamanPuteri/css/font.css',
+            '../theme/Inspinia/css/bootstrap.css',
+            '../theme/Inspinia/css/animate.css',
+            '../theme/Inspinia/css/font-awesome.min.css',
+            '../theme/Inspinia/css/font.css',
             // '../theme/LamanPuteri/js/calendar/bootstrap_calendar.css',
             '../js/fuelux/fuelux.css',
-            '../theme/LamanPuteri/js/datepicker/datepicker.css',
-            '../theme/LamanPuteri/js/fullcalendar/fullcalendar.css',
-            '../theme/LamanPuteri/js/fullcalendar/theme.css',
-            '../theme/LamanPuteri/css/app.css',
+            '../theme/Inspinia/js/datepicker/datepicker.css',
+            '../theme/Inspinia/js/fullcalendar/fullcalendar.css',
+            '../theme/Inspinia/js/fullcalendar/theme.css',
+            '../theme/Inspinia/css/app.css',
             
         ));
 
@@ -64,56 +59,52 @@ min-height:100%;
   <![endif]-->
   
 </head>
-<body class="myBody">
+<body class="bg-image">
   <section id="content" class="m-t-lg wrapper-md animated fadeInUp">    
-    <div class="container aside-xxl">
+  <!-- <div class="wrapper wrapper-content animated fadeInRight" style="height:100%;"> -->
 
-                  <!-- <section class="panel panel-default">     -->
-                    <?php //if($title_for_layout == 'MemberIndex') { ?>
-                        <?php echo $this->Layout->sessionFlash(); ?>
-                    <?php //} ?>
-                    
+                    <?php echo $this->Layout->sessionFlash(); ?>
                     <?php echo $this->fetch('content'); ?>
                     <?php echo $this->fetch('body_content'); ?>
                   <!-- </section> -->
                 
-    </div>
+    <!-- </div> -->
   </section>
 
   <?php
         // <!-- Bootstrap -->
         echo $this->Html->script(array(
-            '../theme/LamanPuteri/js/jquery.min.js',
-            '../theme/LamanPuteri/js/bootstrap.js',
+            '../theme/Inspinia/js/jquery.min.js',
+            '../theme/Inspinia/js/bootstrap.js',
             
         ));
         // <!-- App -->
         echo $this->Html->script(array(
             // '../theme/LamanPuteri/js/jquery.min.js',
-            '../theme/LamanPuteri/js/app.js',
-            '../theme/LamanPuteri/js/app.plugin.js',
-            '../theme/LamanPuteri/js/slimscroll/jquery.slimscroll.min.js',
-            '../theme/LamanPuteri/js/charts/easypiechart/jquery.easy-pie-chart.js',
+            '../theme/Inspinia/js/app.js',
+            '../theme/Inspinia/js/app.plugin.js',
+            '../theme/Inspinia/js/slimscroll/jquery.slimscroll.min.js',
+            '../theme/Inspinia/js/charts/easypiechart/jquery.easy-pie-chart.js',
             // '../theme/LamanPuteri/js/charts/flot/jquery.flot.pie.min.js',
-            '../theme/LamanPuteri/js/charts/sparkline/jquery.sparkline.min.js',
-            '../theme/LamanPuteri/js/charts/flot/jquery.flot.min.js',
-            '../theme/LamanPuteri/js/charts/flot/jquery.flot.tooltip.min.js',
-            '../theme/LamanPuteri/js/charts/flot/jquery.flot.resize.js',
+            '../theme/Inspinia/js/charts/sparkline/jquery.sparkline.min.js',
+            '../theme/Inspinia/js/charts/flot/jquery.flot.min.js',
+            '../theme/Inspinia/js/charts/flot/jquery.flot.tooltip.min.js',
+            '../theme/Inspinia/js/charts/flot/jquery.flot.resize.js',
             // '../theme/LamanPuteri/js/charts/flot/jquery.flot.pie.min.js',
-            '../theme/LamanPuteri/js/charts/flot/jquery.flot.grow.js',
-            '../theme/LamanPuteri/js/charts/flot/demo.js',
-            '../theme/LamanPuteri/js/datepicker/bootstrap-datepicker.js',
+            '../theme/Inspinia/js/charts/flot/jquery.flot.grow.js',
+            '../theme/Inspinia/js/charts/flot/demo.js',
+            '../theme/Inspinia/js/datepicker/bootstrap-datepicker.js',
             // '../theme/LamanPuteri/js/calendar/bootstrap_calendar.js',
             // '../theme/LamanPuteri/js/calendar/demo.js',
-            '../theme/LamanPuteri/js/sortable/jquery.sortable.js'
+            '../theme/Inspinia/js/sortable/jquery.sortable.js'
         ));
         //  <!-- App -->
         echo $this->Html->script(array(
-            '../theme/LamanPuteri/js/fuelux/fuelux.js',
-            '../theme/LamanPuteri/js/jquery-ui-1.10.3.custom.min.js',
+            '../theme/Inspinia/js/fuelux/fuelux.js',
+            '../theme/Inspinia/js/jquery-ui-1.10.3.custom.min.js',
             // '../theme/LamanPuteri/js/jquery.ui.touch-punch.min.js',
-            '../theme/LamanPuteri/js/fullcalendar/fullcalendar.min.js',
-            '../theme/LamanPuteri/js/fullcalendar/demo.js',
+            '../theme/Inspinia/js/fullcalendar/fullcalendar.min.js',
+            '../theme/Inspinia/js/fullcalendar/demo.js',
         ));
 
 ?>  
