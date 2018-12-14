@@ -62,8 +62,9 @@ background: url('<?php echo $this->webroot.'theme/Inspinia/img/buzy_office_scene
 <body class="bg-image">
   <section id="content" class="m-t-lg wrapper-md animated fadeInUp">    
   <!-- <div class="wrapper wrapper-content animated fadeInRight" style="height:100%;"> -->
-
+                    <div class="container-fluid" style="width: 500px; top: 30%;">
                     <?php echo $this->Layout->sessionFlash(); ?>
+                    </div>
                     <?php echo $this->fetch('content'); ?>
                     <?php echo $this->fetch('body_content'); ?>
                   <!-- </section> -->

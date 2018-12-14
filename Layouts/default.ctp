@@ -594,7 +594,7 @@
                 <div class="footer" style="position:fixed;bottom:0;">
                   
                     <div style="text-align: center">
-                        <strong>Copyright</strong> Template Generated
+                        <strong>Developed by: </strong> Software Development Unit, ICT 
                     </div>
                 </div>
             </div>

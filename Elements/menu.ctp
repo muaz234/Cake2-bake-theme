@@ -1,5 +1,4 @@
 
-
     <?php     
   echo $this->Html->css(array(
     '../theme/Inspinia/css/bootstrap.min.css',
@@ -40,7 +39,7 @@ echo $this->Html->script(array(
                             </ul>
                         </div>
                         <div class="logo-element">
-                            LMS
+                            <?php  echo Configure::read('Site.title');  ?>
                         </div>
                     </li>
                     <?php 
