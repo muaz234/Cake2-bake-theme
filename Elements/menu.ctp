@@ -54,7 +54,7 @@ echo $this->Html->script(array(
                             ?>
 
                     <li>
-                    <a href="<?php  echo $this->webroot.$myMenu['Link']['link']; ?>"><i class=""></i> <span class="nav-label"></span> <span class="fa arrow"></span>
+                    <a href="<?php  echo $this->webroot.$myMenu['Link']['link']; ?>"><i class=""></i> <span class="nav-label"></span> <span class=""></span>
                     <!-- <a href="<?php echo $this->webroot.$myMenu['Link']['link']; ?>"  class="active"> -->
                     <?php echo $myMenu['Link']['params']; ?>
                     <span><?php echo $myMenu['Link']['title']; ?></span>

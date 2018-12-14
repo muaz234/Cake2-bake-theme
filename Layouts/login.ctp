@@ -37,16 +37,13 @@ background: url('<?php echo $this->webroot.'theme/Inspinia/img/buzy_office_scene
         echo $this->Layout->js();
 
         echo $this->Html->css(array(
-            '../theme/Inspinia/css/bootstrap.css',
-            '../theme/Inspinia/css/animate.css',
-            '../theme/Inspinia/css/font-awesome.min.css',
-            '../theme/Inspinia/css/font.css',
-            // '../theme/LamanPuteri/js/calendar/bootstrap_calendar.css',
-            '../js/fuelux/fuelux.css',
-            '../theme/Inspinia/js/datepicker/datepicker.css',
-            '../theme/Inspinia/js/fullcalendar/fullcalendar.css',
-            '../theme/Inspinia/js/fullcalendar/theme.css',
-            '../theme/Inspinia/css/app.css',
+            '../theme/Inspinia/css/bootstrap.min.css',
+        '../theme/Inspinia/css/font-awesome/css/font-awesome.css',
+        '../theme/Inspinia/css/plugins/toastr/toastr.min.css',
+        '../theme/Inspinia/js/plugins/gritter/jquery.gritter.css',
+
+        '../theme/Inspinia/css/animate.css',
+        '../theme/Inspinia/css/style.css',
             
         ));
 
@@ -60,54 +57,52 @@ background: url('<?php echo $this->webroot.'theme/Inspinia/img/buzy_office_scene
   
 </head>
 <body class="bg-image">
-  <section id="content" class="m-t-lg wrapper-md animated fadeInUp">    
-  <!-- <div class="wrapper wrapper-content animated fadeInRight" style="height:100%;"> -->
-                    <div class="container-fluid" style="width: 500px; top: 30%;">
-                    <?php echo $this->Layout->sessionFlash(); ?>
-                    </div>
+    <section id="content" class="wrapper wrapper-content animated fadeInRight">  
+
+        <!-- <div class=""> -->
+                <div class="container-fluid" style="width: 550px;">
+                    <?php  echo $this->Layout->sessionFlash(); ?>
+                </div>
                     <?php echo $this->fetch('content'); ?>
                     <?php echo $this->fetch('body_content'); ?>
-                  <!-- </section> -->
-                
-    <!-- </div> -->
-  </section>
+
+        
+
+                  
+        <!-- </div> -->
+    </section>
+
+  <!-- </section> -->
 
   <?php
-        // <!-- Bootstrap -->
-        echo $this->Html->script(array(
-            '../theme/Inspinia/js/jquery.min.js',
+          echo $this->Html->script(array(
+            '../theme/Inspinia/js/jquery-2.2.4.min.js',
             '../theme/Inspinia/js/bootstrap.js',
+            '../theme/Inspinia/js/plugins/metisMenu/jquery.metisMenu.js',
+            '../theme/Inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js',
             
-        ));
-        // <!-- App -->
-        echo $this->Html->script(array(
-            // '../theme/LamanPuteri/js/jquery.min.js',
-            '../theme/Inspinia/js/app.js',
-            '../theme/Inspinia/js/app.plugin.js',
-            '../theme/Inspinia/js/slimscroll/jquery.slimscroll.min.js',
-            '../theme/Inspinia/js/charts/easypiechart/jquery.easy-pie-chart.js',
-            // '../theme/LamanPuteri/js/charts/flot/jquery.flot.pie.min.js',
-            '../theme/Inspinia/js/charts/sparkline/jquery.sparkline.min.js',
-            '../theme/Inspinia/js/charts/flot/jquery.flot.min.js',
-            '../theme/Inspinia/js/charts/flot/jquery.flot.tooltip.min.js',
-            '../theme/Inspinia/js/charts/flot/jquery.flot.resize.js',
-            // '../theme/LamanPuteri/js/charts/flot/jquery.flot.pie.min.js',
-            '../theme/Inspinia/js/charts/flot/jquery.flot.grow.js',
-            '../theme/Inspinia/js/charts/flot/demo.js',
-            '../theme/Inspinia/js/datepicker/bootstrap-datepicker.js',
-            // '../theme/LamanPuteri/js/calendar/bootstrap_calendar.js',
-            // '../theme/LamanPuteri/js/calendar/demo.js',
-            '../theme/Inspinia/js/sortable/jquery.sortable.js'
-        ));
-        //  <!-- App -->
-        echo $this->Html->script(array(
-            '../theme/Inspinia/js/fuelux/fuelux.js',
-            '../theme/Inspinia/js/jquery-ui-1.10.3.custom.min.js',
-            // '../theme/LamanPuteri/js/jquery.ui.touch-punch.min.js',
-            '../theme/Inspinia/js/fullcalendar/fullcalendar.min.js',
-            '../theme/Inspinia/js/fullcalendar/demo.js',
-        ));
+            '../theme/Inspinia/js/plugins/flot/jquery.flot.js',
+            '../theme/Inspinia/js/plugins/flot/jquery.flot.tooltip.min.js',
+            '../theme/Inspinia/js/plugins/flot/jquery.flot.spline.js',
+            '../theme/Inspinia/js/plugins/flot/jquery.flot.resize.js',
+            '../theme/Inspinia/js/plugins/flot/jquery.flot.pie.js',
+            '../theme/Inspinia/js/plugins/flot/jquery.flot.time.js',
 
+            '../theme/Inspinia/js/plugins/peity/jquery.peity.min.js',
+            '../theme/Inspinia/js/demo/peity-demo.js',
+            
+            '../theme/Inspinia/js/plugins/jquery-ui/jquery-ui.min.js',
+            '../theme/Inspinia/js/plugins/gritter/jquery.gritter.min.js',
+            '../theme/Inspinia/js/plugins/sparkline/jquery.sparkline.min.js',
+            '../theme/Inspinia/js/demo/sparkline-demo.js',
+            '../theme/Inspinia/js/plugins/chartJs/Chart.min.js',
+            '../theme/Inspinia/js/plugins/toastr/toastr.min.js',
+
+            '../theme/Inspinia/js/plugins/pace/pace.min.js',
+            '../theme/Inspinia/js/demo/flot-demo.js',
+
+
+        ));
 ?>  
 
 </body>

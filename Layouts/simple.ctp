@@ -56,7 +56,7 @@
 
                 <li>
                 <div style="position: relative;top: 8!important;">
-                <button class="btn btn-success"  onclick=" location.href ='<?php echo $this->webroot.'users/users/login'; ?>' "; return false;"  role="button"><i class="fa fa-lock"></i>&nbsp;&nbsp;<span class="bold">Admin</span></a>
+                <button class="btn btn-success"  onclick=" location.href ='<?php echo $this->webroot.'users/users/login'; ?>' "; return false;"  role="button"><i class="fa fa-lock"></i>&nbsp;&nbsp;<span class="bold">Admin</span></button>
                 </div>
                 <!-- <button class="btn btn-success " type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">Upload</span></button> -->
                 </li> 

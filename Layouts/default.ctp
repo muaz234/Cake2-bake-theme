@@ -165,7 +165,7 @@
         </nav>
         </div>
             
-                <div class="row  border-bottom">
+                <div class="row border-bottom">
                         <?php  echo $this->Layout->sessionFlash(); ?>
 
                         <?php echo $this->fetch('content'); ?>
