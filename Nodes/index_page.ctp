@@ -33,13 +33,12 @@
 .bg-white{
     background-color: #ffffff;
 }
-.bg-grey{
-    background-color: #e0e0e0 !important ;
+.bg-light_blue{
+    background-color: #cde7f0 ;
 }
 .bg-pink{
     background-color: #ffe9ec !important ;
-} 
-
+}
 </style>
 
 </head>
@@ -57,22 +56,20 @@
             <img src="<?php echo $this->webroot.'./theme/Inspinia/img/prasarana_logo.png';?>" >
             </div>
         </div>
-         <!-- <ul class="nav navbar-top-links navbar-right"> -->
+         <ul class="nav navbar-top-links navbar-right">
              <div class="container-fluid">
             <?php echo $this->element('top-nav');  ?>   
             </div>
 
-            <!-- </ul>  -->
+            </ul> 
         </nav>
         </div>
             
-                <div class="bg-grey">
+                <div class="bg-pink">
 
-                        <?php  echo $this->Layout->sessionFlash(); ?>
-
-                        <?php echo $this->fetch('content'); ?>
-
-                        <?php echo $this->fetch('body_content'); ?>
+                       <?php echo $this->Nodes->info();
+								echo $this->Nodes->body();
+								echo $this->Nodes->moreInfo(); ?>
                     
                 </div> 
                 <div class="footer" style="position:fixed;bottom:0;">
