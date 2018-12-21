@@ -66,7 +66,7 @@
         </nav>
         </div>
             
-                <div class="bg-grey">
+                <div class="bg-grey" style="height: 100% !important;">
 
                         <?php  echo $this->Layout->sessionFlash(); ?>
 
