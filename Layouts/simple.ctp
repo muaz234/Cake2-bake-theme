@@ -78,96 +78,21 @@
                 <div class="footer" style="position:fixed;bottom:0;">
                   
                     <div style="text-align: center">
-                        <strong>Developed by: </strong> Software Development Unit, ICT 
+                        <strong>Developed by: </strong> X-Team, Strategic and Transformation Office (GCOO) 
                     </div>
                 </div>
             <!-- </div> -->
             <div class="small-chat-box fadeInRight animated">
 
-            <div class="heading" draggable="true">
-                <small class="chat-date pull-right">
-                    02.19.2015
-                </small>
-                Small chat
-            </div>
-
-            <div class="content">
-
-                <div class="left">
-                    <div class="author-name">
-                        Monica Jackson <small class="chat-date">
-                        10:02 am
-                    </small>
-                    </div>
-                    <div class="chat-message active">
-                        Lorem Ipsum is simply dummy text input.
-                    </div>
-
-                </div>
-                <div class="right">
-                    <div class="author-name">
-                        Mick Smith
-                        <small class="chat-date">
-                            11:24 am
-                        </small>
-                    </div>
-                    <div class="chat-message">
-                        Lorem Ipsum is simpl.
-                    </div>
-                </div>
-                <div class="left">
-                    <div class="author-name">
-                        Alice Novak
-                        <small class="chat-date">
-                            08:45 pm
-                        </small>
-                    </div>
-                    <div class="chat-message active">
-                        Check this stock char.
-                    </div>
-                </div>
-                <div class="right">
-                    <div class="author-name">
-                        Anna Lamson
-                        <small class="chat-date">
-                            11:24 am
-                        </small>
-                    </div>
-                    <div class="chat-message">
-                        The standard chunk of Lorem Ipsum
-                    </div>
-                </div>
-                <div class="left">
-                    <div class="author-name">
-                        Mick Lane
-                        <small class="chat-date">
-                            08:45 pm
-                        </small>
-                    </div>
-                    <div class="chat-message active">
-                        I belive that. Lorem Ipsum is simply dummy text.
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="form-chat">
-                <div class="input-group input-group-sm"><input type="text" class="form-control"> <span class="input-group-btn"> <button
-                        class="btn btn-primary" type="button">Send
-                </button> </span></div>
-            </div>
+            
 
         </div>
         <div id="small-chat">
 
-            <span class="badge badge-warning pull-right">5</span>
-                <a class="open-small-chat">
-                    <i class="fa fa-comments"></i>
-
-                </a>
+            
         </div>
         <div id="right-sidebar">
-            <div class="sidebar-container">
+            <!-- <div class="sidebar-container">
 
                 <ul class="nav nav-tabs navs-3">
 
@@ -363,8 +288,8 @@
                                 <a href="#">
                                     <span class="label label-primary pull-right">NEW</span>
                                     <h4>The generated</h4>
-                                    <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
-                                    There are many variations of passages of Lorem Ipsum available.
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>-->
+                                    <!-- There are many variations of passages of Lorem Ipsum available.
                                     <div class="small">Completion with: 22%</div>
                                     <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
                                 </a>
@@ -382,8 +307,8 @@
                                     <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
+                            <li> -->
+                                <!-- <a href="#">
                                     <div class="small pull-right m-t-xs">9 hours ago</div>
                                     <h4>Contract with Company </h4>
                                     Many desktop publishing packages and web page editors.
@@ -406,12 +331,12 @@
                                     </div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
+                            <li> -->
+                                <!-- <a href="#">
                                     <span class="label label-primary pull-right">NEW</span>
-                                    <h4>The generated</h4>
+                                    <h4>The generated</h4> -->
                                     <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
-                                    There are many variations of passages of Lorem Ipsum available.
+                                    <!-- There are many variations of passages of Lorem Ipsum available.
                                     <div class="small">Completion with: 22%</div>
                                     <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
                                 </a>
@@ -537,9 +462,9 @@
                         </div>
 
                     </div>
-                </div>
+                </div> -->
 
-            </div>
+            <!-- </div> -->
 
 
 

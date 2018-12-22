@@ -594,7 +594,8 @@
                 <div class="footer" style="position:fixed;bottom:0;">
                   
                     <div style="text-align: center">
-                        <strong>Developed by: </strong> Software Development Unit, ICT 
+                    <strong>Developed by: </strong> X-Team, Strategic and Transformation Office (GCOO) 
+                        <!-- <strong>Developed by: </strong> Software Development Unit, ICT  -->
                     </div>
                 </div>
             </div>
