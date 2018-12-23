@@ -599,18 +599,18 @@
                     </div>
                 </div>
             </div>
-            <div class="small-chat-box fadeInRight animated">
+            <!-- <div class="small-chat-box fadeInRight animated"> -->
 
-            <div class="heading" draggable="true">
+            <!-- <div class="heading" draggable="true">
                 <small class="chat-date pull-right">
                     02.19.2015
                 </small>
                 Small chat
-            </div>
+            </div> -->
 
-            <div class="content">
+            <!-- <div class="content"> -->
 
-                <div class="left">
+                <!-- <div class="left">
                     <div class="author-name">
                         Monica Jackson <small class="chat-date">
                         10:02 am
@@ -620,8 +620,8 @@
                         Lorem Ipsum is simply dummy text input.
                     </div>
 
-                </div>
-                <div class="right">
+                </div> -->
+                <!-- <div class="right">
                     <div class="author-name">
                         Mick Smith
                         <small class="chat-date">
@@ -631,8 +631,8 @@
                     <div class="chat-message">
                         Lorem Ipsum is simpl.
                     </div>
-                </div>
-                <div class="left">
+                </div> -->
+                <!-- <div class="left">
                     <div class="author-name">
                         Alice Novak
                         <small class="chat-date">
@@ -642,8 +642,8 @@
                     <div class="chat-message active">
                         Check this stock char.
                     </div>
-                </div>
-                <div class="right">
+                </div> -->
+                <!-- <div class="right">
                     <div class="author-name">
                         Anna Lamson
                         <small class="chat-date">
@@ -653,8 +653,8 @@
                     <div class="chat-message">
                         The standard chunk of Lorem Ipsum
                     </div>
-                </div>
-                <div class="left">
+                </div> -->
+                <!-- <div class="left">
                     <div class="author-name">
                         Mick Lane
                         <small class="chat-date">
@@ -664,27 +664,27 @@
                     <div class="chat-message active">
                         I belive that. Lorem Ipsum is simply dummy text.
                     </div>
-                </div>
+                </div> -->
 
 
-            </div>
-            <div class="form-chat">
+            <!-- </div> -->
+            <!-- <div class="form-chat">
                 <div class="input-group input-group-sm"><input type="text" class="form-control"> <span class="input-group-btn"> <button
                         class="btn btn-primary" type="button">Send
                 </button> </span></div>
-            </div>
+            </div> -->
 
-        </div>
-        <div id="small-chat">
+        <!-- </div> -->
+        <!-- <div id="small-chat">
 
             <span class="badge badge-warning pull-right">5</span>
                 <a class="open-small-chat">
                     <i class="fa fa-comments"></i>
 
                 </a>
-        </div>
-        <div id="right-sidebar">
-            <div class="sidebar-container">
+        </div> -->
+        <!-- <div id="right-sidebar"> -->
+            <!-- <div class="sidebar-container">
 
                 <ul class="nav nav-tabs navs-3">
 
@@ -880,14 +880,14 @@
                                 <a href="#">
                                     <span class="label label-primary pull-right">NEW</span>
                                     <h4>The generated</h4>
-                                    <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
-                                    There are many variations of passages of Lorem Ipsum available.
+                                    <div class="small pull-right m-t-xs">9 hours ago</div>-->
+                                    <!-- There are many variations of passages of Lorem Ipsum available.
                                     <div class="small">Completion with: 22%</div>
                                     <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
+                            <li> -->
+                                <!-- <a href="#">
                                     <div class="small pull-right m-t-xs">9 hours ago</div>
                                     <h4>Business valuation</h4>
                                     It is a long established fact that a reader will be distracted.
@@ -910,8 +910,8 @@
                                         <div style="width: 48%;" class="progress-bar"></div>
                                     </div>
                                 </a>
-                            </li>
-                            <li>
+                            </li> -->
+                            <!-- <li>
                                 <a href="#">
                                     <div class="small pull-right m-t-xs">9 hours ago</div>
                                     <h4>Meeting</h4>
@@ -926,21 +926,15 @@
                             <li>
                                 <a href="#">
                                     <span class="label label-primary pull-right">NEW</span>
-                                    <h4>The generated</h4>
+                                    <h4>The generated</h4> -->
                                     <!--<div class="small pull-right m-t-xs">9 hours ago</div>-->
-                                    There are many variations of passages of Lorem Ipsum available.
-                                    <div class="small">Completion with: 22%</div>
-                                    <div class="small text-muted m-t-xs">Project end: 4:00 pm - 12.06.2014</div>
-                                </a>
-                            </li>
+                                    
 
-                        </ul>
+                    <!-- </div> -->
 
-                    </div>
+                    <!-- <div id="tab-3" class="tab-pane"> -->
 
-                    <div id="tab-3" class="tab-pane">
-
-                        <div class="sidebar-title">
+                        <!-- <div class="sidebar-title">
                             <h3><i class="fa fa-gears"></i> Settings</h3>
                             <small><i class="fa fa-tim"></i> You have 14 projects. 10 not completed.</small>
                         </div>
@@ -1051,17 +1045,17 @@
                                 And typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
                                 Over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
                             </div>
-                        </div>
+                        </div> -->
 
-                    </div>
-                </div>
+                    <!-- </div> -->
+                <!-- </div> -->
 
-            </div>
+            <!-- </div>  -->
 
 
 
         </div>        
-</div>
+<!-- </div> -->
 
         
         
