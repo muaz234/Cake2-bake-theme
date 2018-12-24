@@ -47,25 +47,9 @@
             
             </div>
         </div>
-            <ul class="nav navbar-top-links navbar-right">
-                <!-- <li>
-                    <span class="m-r-sm text-muted welcome-message">Welcome <?php echo $this->Session->read('Auth.User.name');  ?></span>
-                </li> -->
-                
-
-
-                <li>
-                <div style="position: relative;top: 8!important;">
-                <button class="btn btn-success"  onclick=" location.href ='<?php echo $this->webroot.'users/users/login'; ?>' "; return false;"  role="button"><i class="fa fa-lock"></i>&nbsp;&nbsp;<span class="bold">Admin</span></a>
-                </div>
-                <!-- <button class="btn btn-success " type="button"><i class="fa fa-upload"></i>&nbsp;&nbsp;<span class="bold">Upload</span></button> -->
-                </li> 
-
-                <li>
-                    <!-- <a href="<?php echo $this->webroot.'users/users/login'; ?>" class="btn btn-primary">Admin</a> -->
-                </li>
-
-            </ul>
+            <div class="container-fluid">
+                <?php echo $this->element('top-nav');  ?>   
+            </div>
 
         </nav>
         </div>
