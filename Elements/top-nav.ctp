@@ -16,14 +16,14 @@
             <?php foreach ($myMenu['children'] as $child) { ?>
               <li style="margin:5 10px 10px 0; vertical-align:top;">
                 <a href="<?php echo $this->webroot.$child['Link']['link']; ?>">                                      
-                <span style="color: black; font-weight: 500 !important;"><?php echo $child['Link']['title']; ?></span>
+                <span style="color: black; font-weight: 500 !important; font-size: medium;"><?php echo $child['Link']['title']; ?></span>
                 </a>
               </li>  
             <?php   } ?>
           </ul>
         </li>
       <?php } else { ?>
-        <li style="margin:10 15px 15px 0; vertical-align:top; font-weight: bold; ">
+        <li style="margin:10 15px 15px 0; vertical-align:top;  ">
 
             <a href="<?php echo $this->webroot.$myMenu['Link']['link']; ?>"  class="<?php echo $myMenu['Link']['class'];?>"> &nbsp; &nbsp; 
               <?php echo $myMenu['Link']['params']; ?>
