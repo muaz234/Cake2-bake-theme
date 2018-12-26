@@ -1,4 +1,9 @@
+<style>
+.width{
+  width: 110px !important ;
+}
 
+</style>
 <ul class="nav navbar-top-links navbar-right">
     <?php 
     // print_r($menus_for_layout['main']['threaded']);
@@ -8,7 +13,7 @@
     ?>
       <?php  if (!empty($myMenu['children'])) { ?>
         <li style="margin:10 15px 15px 0; vertical-align:top;"> 
-            <a href="<?php echo $this->webroot.$myMenu['Link']['link']; ?>"  class="<?php echo $myMenu['Link']['class'];?> dropdown-toggle" data-toggle="dropdown">
+            <a href="<?php echo $this->webroot.$myMenu['Link']['link']; ?>"  class="<?php echo $myMenu['Link']['class'];?>  dropdown-toggle" style="height: 10px; line-height: 10px;" data-toggle="dropdown">
             <?php echo $myMenu['Link']['params']; ?>
             <span style="color: black; font-weight: 500 !important; font-size: medium;"><?php echo $myMenu['Link']['title']; ?></span>
             </a>
@@ -23,12 +28,13 @@
           </ul>
         </li>
       <?php } else { ?>
-        <li style="margin:10 15px 15px 0; vertical-align:top;">
-
-            <a href="<?php echo $this->webroot.$myMenu['Link']['link']; ?>"  class="<?php echo $myMenu['Link']['class'];?>">  
+        <li style="margin:10 15px 15px 0; vertical-align:top; text-align: center">
+            
+            <a href="<?php echo $this->webroot.$myMenu['Link']['link']; ?>"  class="<?php echo $myMenu['Link']['class'];?>" style="height: 10px; line-height: 10px;">  
               <?php echo $myMenu['Link']['params']; ?>
               <span style="color: black; font-weight: 500 !important; font-size: medium;"><?php echo $myMenu['Link']['title']; ?></span>
             </a>
+          
         </li>
       <?php } ?>
     <?php } ?>
