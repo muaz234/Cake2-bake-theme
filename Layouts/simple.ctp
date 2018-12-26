@@ -59,7 +59,9 @@
         </div>
          <!-- <ul class="nav navbar-top-links navbar-right"> -->
              <div class="container-fluid">
-            <?php echo $this->element('top-nav');  ?>   
+                 <div style="text-align: center;">
+                     <?php echo $this->element('top-nav');  ?>
+                </div>   
             </div>
 
             <!-- </ul>  -->
