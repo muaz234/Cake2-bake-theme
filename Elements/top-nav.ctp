@@ -1,6 +1,6 @@
 <style>
 .width{
-  width: 110px !important ;
+  width: 120px !important ;
 }
 
 </style>
